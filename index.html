@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SOPTEK | Soporte y Mantenimiento de Tecnología</title>
+<style>
+:root{--blue:#0b3d91;--dark:#071a33;--light:#f4f7fb;--accent:#19a7ce;--text:#1d2939}
+*{box-sizing:border-box;margin:0;padding:0}body{font-family:Arial,Helvetica,sans-serif;color:var(--text);background:var(--light);line-height:1.6}
+header{background:linear-gradient(135deg,var(--dark),var(--blue));color:white;padding:22px 8%;display:flex;align-items:center;justify-content:space-between;gap:20px;position:sticky;top:0;z-index:10}header img{width:70px;height:70px;object-fit:contain;background:white;border-radius:12px;padding:4px}nav a{color:white;text-decoration:none;margin-left:20px;font-weight:bold;font-size:14px}
+.hero{padding:80px 8%;background:white;display:flex;align-items:center;gap:55px;min-height:480px}.hero img{width:240px;max-width:35%;object-fit:contain}.hero h1{font-size:clamp(40px,7vw,72px);color:var(--blue);margin-bottom:8px}.hero h2{font-size:clamp(20px,3vw,32px);font-weight:400;color:#344054;margin-bottom:20px}.hero p{font-size:19px;max-width:680px}.btn{display:inline-block;margin-top:25px;padding:12px 22px;border-radius:8px;background:var(--blue);color:white;text-decoration:none;font-weight:bold}
+section{padding:65px 8%;max-width:1200px;margin:auto}section h2{font-size:34px;color:var(--blue);margin-bottom:18px}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;margin-top:28px}.card{background:white;border-radius:14px;padding:25px;box-shadow:0 5px 20px #0000000d}.card h3{color:var(--blue);margin-bottom:8px}.highlight{background:var(--dark);color:white;max-width:none}.highlight h2{color:white}.quote{font-size:24px;font-weight:bold;color:var(--accent);margin-top:15px}.services .card{border-top:5px solid var(--accent)}ul{padding-left:22px}.contact{background:white;text-align:center}.contact p{font-size:18px;margin:8px}.footer{background:var(--dark);color:#d0d5dd;text-align:center;padding:25px;font-size:14px}
+@media(max-width:700px){header{flex-direction:column}nav a{margin:0 7px}.hero{flex-direction:column;text-align:center}.hero img{max-width:65%;width:200px}}
+</style>
+</head>
+<body>
+<header>
+  <div><img src="soptek-logo.png" alt="Logo SOPTEK"></div>
+  <nav><a href="#inicio">Inicio</a><a href="#nosotros">Nosotros</a><a href="#servicios">Servicios</a><a href="#mision">Misión y visión</a><a href="#contacto">Contacto</a></nav>
+</header>
+
+<main>
+<section class="hero" id="inicio">
+  <img src="soptek-logo.png" alt="SOPTEK">
+  <div><h1>SOPTEK</h1><h2>Soporte y Mantenimiento de Tecnología</h2><p>Soluciones prácticas, confiables y accesibles para mantener en buen estado tus equipos y sistemas tecnológicos.</p><a class="btn" href="#servicios">Conoce nuestros servicios</a></div>
+</section>
+
+<section id="nosotros">
+<h2>¿Quiénes somos?</h2>
+<p>SOPTEK es una empresa dedicada al soporte y mantenimiento de equipos tecnológicos en Coatzacoalcos, Veracruz. Ofrecemos soluciones prácticas y confiables para personas y pequeños negocios que necesitan mantener su tecnología funcionando correctamente.</p>
+<div class="cards"><div class="card"><h3>Atención personalizada</h3><p>Servicio cercano, profesional y enfocado en las necesidades de cada cliente.</p></div><div class="card"><h3>Soporte técnico</h3><p>Diagnóstico, reparación, instalación, actualización y optimización de equipos.</p></div><div class="card"><h3>Servicio remoto</h3><p>Soluciones a distancia para atender problemas de manera rápida y eficiente.</p></div></div>
+</section>
+
+<section class="highlight" id="mision"><h2>Misión</h2><p>Brindar servicios de soporte y mantenimiento tecnológico confiables y de calidad, ofreciendo soluciones eficientes que garanticen el óptimo funcionamiento de los equipos y sistemas informáticos de nuestros clientes.</p><h2 style="margin-top:35px">Visión</h2><p>Ser una empresa líder en soporte y mantenimiento tecnológico en Coatzacoalcos, reconocida por su calidad, confianza y compromiso con la satisfacción del cliente.</p><p class="quote">“Donde tu equipo encuentra su mejor versión”</p></section>
+
+<section class="services" id="servicios"><h2>Servicios</h2><div class="cards"><div class="card"><h3>🖥️ Mantenimiento</h3><p>Mantenimiento preventivo y correctivo de equipos de cómputo.</p></div><div class="card"><h3>🔧 Reparación</h3><p>Diagnóstico y reparación de fallas en equipos y componentes.</p></div><div class="card"><h3>⚙️ Instalación y actualización</h3><p>Instalación, configuración y actualización de software y sistemas.</p></div><div class="card"><h3>🌐 Soporte remoto</h3><p>Atención virtual para resolver problemas técnicos sin necesidad de traslado.</p></div><div class="card"><h3>📱 Asesoría tecnológica</h3><p>Orientación para aprovechar correctamente dispositivos y herramientas digitales.</p></div><div class="card"><h3>🔐 Seguridad y datos</h3><p>Buenas prácticas para proteger información y mejorar la seguridad tecnológica.</p></div></div></section>
+
+<section><h2>¿Qué nos diferencia?</h2><ul><li>Atención personalizada y cercana.</li><li>Soluciones accesibles para usuarios y pequeños negocios.</li><li>Servicio presencial y remoto.</li><li>Enfoque en mantenimiento preventivo para alargar la vida útil de los equipos.</li><li>Compromiso con la calidad, ética, responsabilidad y confidencialidad.</li></ul></section>
+
+<section class="contact" id="contacto"><h2>Contáctanos</h2><p>¿Tienes un problema con tu equipo o necesitas asesoría tecnológica?</p><p><strong>SOPTEK</strong> está listo para ayudarte.</p><p>📞 <a href="tel:+52922123662" style="color:inherit;font-weight:bold;text-decoration:none;">922 123 662</a></p><p>📍 <a href="https://www.google.com/maps/search/?api=1&query=Coatzacoalcos%2C%20Veracruz%2C%20Mexico" target="_blank" rel="noopener noreferrer" style="color:inherit;font-weight:bold;text-decoration:none;">Coatzacoalcos, Veracruz</a></p></section>
+</main>
+<footer class="footer">© 2026 SOPTEK — Soporte y Mantenimiento de Tecnología</footer>
+</body>
+</html>
